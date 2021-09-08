@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: sales_data
+    description: 'A sample test schema to store in dbt'
+    schema: sales_data
+    tables:
+      - name: store_sales
